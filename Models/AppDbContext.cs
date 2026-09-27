@@ -6,10 +6,9 @@ namespace MF_APIsWebServices_Fuel_manager.Models
     {
         public AppDbContext(DbContextOptions options) : base(options)
         {
-
         }
 
-        public DbSet<Veiculo> Veiculos { get; set; }
-        public DbSet<Consumo> Consumos { get; set; }
+        DbSet<Veiculo> Veiculos { get; set; }
+        DbSet<Consumo> Consumos { get; set; }
     }
 }
