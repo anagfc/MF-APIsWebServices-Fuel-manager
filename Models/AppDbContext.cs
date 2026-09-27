@@ -8,7 +8,7 @@ namespace MF_APIsWebServices_Fuel_manager.Models
         {
         }
 
-        DbSet<Veiculo> Veiculos { get; set; }
-        DbSet<Consumo> Consumos { get; set; }
+        public DbSet<Veiculo> Veiculos { get; set; }
+        public DbSet<Consumo> Consumos { get; set; }
     }
 }
